@@ -1,0 +1,120 @@
+.slider-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0px;
+    background-color: aquamarine;
+}
+
+.slider {
+    position: relative;
+    overflow: hidden;
+    width: 200%;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.slider-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.slider-slide.active {
+    opacity: 1;
+}
+
+.slider-image {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slider-text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #fff;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 480px) {
+    .slider-text {
+        font-size: 16px;
+    }
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 400px;
+}
+h2{
+    text-align: center;
+}
+
+/*contact*/
+/* Custom CSS for the contact form */
+#contact {
+    padding: 40px 0;
+    background-color: #4b94e7;
+}
+
+#contact h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#contact form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact form .form-group {
+    margin-bottom: 20px;
+}
+
+#contact form label {
+    font-weight: bold;
+}
+
+#contact form input[type="text"],
+#contact form input[type="email"],
+#contact form input[type="tel"],
+#contact form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+#contact form textarea {
+    resize: vertical;
+    height: 120px;
+}
+
+#contact form button[type="submit"] {
+    background-color: #337ab7;
+    color: #f3afaf;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#contact form button[type="submit"]:hover {
+    background-color: #23527c;
+}
+
+body {
+    background-color: #4b94e7;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*font*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,100;1,300&display=swap');

@@ -1,0 +1,60 @@
+/* Custom styles for the Top 10 webpage */
+
+/* Center the heading */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style the sections for each price category */
+section {
+    margin-top: 40px;
+}
+
+/* Style the section headings */
+section h2 {
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Add some spacing between the section heading and the content */
+section h2 {
+    margin-bottom: 10px;
+}
+
+/* Style the navigation links */
+.navbar-nav .nav-link {
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style the active navigation link */
+.navbar-nav .nav-link.active {
+    background-color: #343a40;
+}
+
+/* Style the dropdown menu items */
+.dropdown-menu a {
+    color: #333;
+    font-weight: bold;
+}
+
+/* Style the "View More" buttons */
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Add some margin to the container */
+.container {
+    margin-top: 20px;
+}
+h2{
+    text-align: center;
+}
